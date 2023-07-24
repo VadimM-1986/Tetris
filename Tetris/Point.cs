@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tetris
 {
-    internal class Point
+    class Point
     {
         public int x;
         public int y;
@@ -18,6 +18,13 @@ namespace Tetris
             Console.Write(c);
         }
 
+        public Point(int a, int b, char sys) 
+        {
+            x = a; 
+            y = b; 
+            c = sys;
+        }
 
+        public Point() { }
     }
 }
