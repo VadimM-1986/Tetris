@@ -17,7 +17,11 @@ namespace Tetris
 			p1.c = '*';
 			p1.Draw();
 
-
+            Point p2 = new Point();
+            p2.x = 4;
+            p2.y = 5;
+            p2.c = '*';
+            p2.Draw();
 
             Console.ReadLine();
         }
